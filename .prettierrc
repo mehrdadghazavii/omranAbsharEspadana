@@ -1,0 +1,14 @@
+{
+  "printWidth": 130,
+  "prettier.jsxBracketSameLine": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "semi": true,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "auto",
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed"
+}

@@ -1,0 +1,157 @@
+$primary-main: #3A0BA1;
+$primary-dark: #1D0354;
+$primary-light: #6728ED;
+
+$secondary-light: #FFF45E;
+$secondary-dark: #A1981B;
+$secondary-main: #EDE240;
+
+$radius: 12px;
+//IRANsans
+@font-face {
+  font-family: IRANsans;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/IRANSansXFaNum-Regular.woff2) format('woff2')
+}
+
+@font-face {
+  font-family: IRANsans;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/IRANSansXFaNum-Bold.woff2) format('woff2')
+}
+
+//Vazir
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Vazir-FD-WOL.woff2) format('woff2')
+}
+
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Vazir-Bold-FD-WOL.woff2) format('woff2')
+}
+
+//BYekan
+@font-face {
+  font-family: BYekan;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/B_Yekan_YasDL.com.ttf)
+}
+
+@font-face {
+  font-family: BYekan;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Yekan.ttf)
+}
+
+.loader {
+  z-index: 3000 !important;
+}
+
+.Toastify__toast-body {
+  font-family: IRANsans;
+}
+.react-autosuggest__container {
+  position: relative;
+}
+
+.react-autosuggest__input {
+  width: 100%;
+  height: 30%;
+  padding: 16px 14px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.react-autosuggest__input__empty {
+  width: 100%;
+  height: 30%;
+  padding: 16px 14px;
+  border: 1px solid #f32f3f;
+  border-radius: 4px;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 51px;
+  width: 280px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 5px 0px 0px 0px;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+//darkMode of AutoSuggest
+
+.react-autosuggest__suggestion--highlighted--dark {
+  background-color: rgb(114, 114, 114);
+}
+
+.react-autosuggest__suggestions-container--open--dark {
+  display: block;
+  position: absolute;
+  top: 51px;
+  width: 280px;
+  border: 1px solid #aaa;
+  background-color: #1c1c1c;
+  border-radius: 4px;
+  z-index: 2;
+  color:#fff;
+}
+
+.react-autosuggest__input--dark {
+  width: 100%;
+  height: 30%;
+  padding: 16px 14px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background-color: #181818;
+  color:#fff
+}
+
+.react-autosuggest__input__empty--dark {
+  width: 100%;
+  height: 30%;
+  padding: 16px 14px;
+  border: 1px solid #f32f3f;
+  border-radius: 4px;
+  background-color: #181818;
+  color:#fff;
+}

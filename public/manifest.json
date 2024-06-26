@@ -1,0 +1,20 @@
+{
+  "short_name": "omran",
+  "name": "عمران آبشار اسپادانا",
+  "icons": [
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4b830d",
+  "background_color": "#ffffff"
+}

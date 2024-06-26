@@ -1,0 +1,13 @@
+.notif-icon {
+  & svg {
+    @keyframes skew-y-shake {
+      0% { transform: rotate(-20deg); }
+      5% { transform: rotate(20deg); }
+      10% { transform: rotate(-20deg); }
+      15% { transform: rotate(20deg); }
+      20% { transform: rotate(0deg); }
+      100% { transform: rotate(0deg); }
+    }
+    animation: skew-y-shake 2s infinite;
+  }
+}

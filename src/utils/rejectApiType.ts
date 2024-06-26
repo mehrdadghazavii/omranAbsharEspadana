@@ -1,0 +1,17 @@
+export const rejectApiTypes = {
+    Contractor: "Contractor",
+    DailyWorker: "DailyWorker",
+    EffectiveAction: "EffectiveAction",
+    FundsPayment: "FundsPayment",
+    Letter: "Letter",
+    Material: "Material",
+    OperationLicense: "OperationLicense",
+    Picture: "Picture",
+    Problem: "Problem",
+    Progress: "Progres",
+    ProjectsFinanceInfo: "ProjectsFinanceInfo",
+    Session: "Session",
+    Staff: "Staff",
+    Tool: "Tool",
+    Weather: "Weather",
+}

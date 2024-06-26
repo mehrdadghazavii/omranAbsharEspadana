@@ -1,0 +1,16 @@
+/* ProgressBar styles for Webkit browsers */
+progress::-webkit-progress-bar {
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    border: 1px solid #bebebe;
+}
+
+/* Value color for Webkit browsers */
+progress::-webkit-progress-value {
+    background: linear-gradient(90deg, #45a294 10%, #5bd1bf 100%);
+}
+
+/* Value color for Firefox */
+progress::-moz-progress-bar {
+    background: linear-gradient(90deg, #45a294 10%, #5bd1bf 100%);
+}

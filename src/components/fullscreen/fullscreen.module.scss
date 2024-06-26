@@ -1,0 +1,42 @@
+.root{
+  position: relative;
+  padding-top: 12px;
+  //&:hover .icon{
+  //  //top: -3rem;
+  //  //opacity: 1;
+  //  animation:icon .5s;
+  //  animation-fill-mode: forwards;
+  //}
+}
+
+.fullscreen{
+  overflow: auto;
+}
+
+.icon{
+  position: absolute!important;
+  opacity: 1;
+  padding:8px!important;
+  left: 50%;
+  right:50%;
+  top:-1.5rem;
+
+}
+
+@keyframes icon {
+  0%{
+    top:0;
+    opacity: 0;
+  }
+  70%{
+    right:50%;
+    opacity: .7;
+    top: 0;
+  }
+  100%{
+    right:50%;
+    top:-3rem;
+    opacity: 1;
+  }
+
+}

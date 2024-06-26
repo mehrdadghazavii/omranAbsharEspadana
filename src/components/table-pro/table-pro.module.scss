@@ -1,0 +1,26 @@
+
+.animatedUp{
+    animation-name: rocketUp;
+    animation-duration: 1s;
+}
+
+@keyframes rocketUp {
+   0%   {  transform:translate(0)    }
+   100%  {  transform:translate(0, -25%) }
+       70%  {  opacity:1; }
+       100%  {  opacity:0; }
+
+}
+
+.animatedDown{
+    animation-name: rocketDown;
+    animation-duration: 1s;
+}
+
+@keyframes rocketDown {
+   0%   {  transform:translate(0)    }
+   100%  {  transform:translate(0, 25%) }
+       70%  {  opacity:1; }
+       100%  {  opacity:0; }
+
+}
